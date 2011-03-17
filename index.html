@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+
+<title>jhess</title>
+
+<style type="text/css">
+
+* {
+	margin: 0; 
+	padding: 0;
+	border: none;
+	line-height: 1.5; }
+body {
+	overflow: hidden;
+	font: 1em Georgia;
+	background: #111; }
+
+.wrapper { 
+	margin: 3em auto;
+	padding: 1em 1.5em 3em 2.5em;
+	width: 60em;
+	border: 1px #ccc solid;
+	overflow: hidden;
+	background: #000 url(1.jpg) top center no-repeat; }
+h1 { 
+	margin: 0;
+	padding: 0; 
+	color: #fff;
+	text-shadow: 0 0 .2em #000; }
+dl.jhess-space {
+	border: 0.1em #ccc solid;
+	float: left;
+	-moz-box-shadow: 0 0 0.5em #111;
+	-webkit-box-shadow: 0 0 0.5em #111; }
+dt.jhess-space { 
+	background: orange; }
+dd.jhess-space {
+	background: green; }
+.jhess-space { 
+	width: 433px;
+	float: left;
+	margin: 0 3% 0 0; }
+.row { overflow: hidden; }
+.column { float: left; }
+.column-1 { margin: 0 1em 0 0; }
+dt.row,
+dd.row { 
+	float: left;
+	width: 3em; 
+	height: 3em; }
+.label { 
+	clear: left;
+	background: #efefef url(wood_border.jpg);
+	border-right: 1px #ccc solid;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 0.1em #111; }
+
+.null-label { 
+	border-right: 1px transparent solid;
+	border-bottom: 1px transparent solid; }
+.row-0.file {
+	background: #efefef url(wood_border.jpg);
+	border-top: 1px #ccc solid;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 0 0.1em #111; }
+.white {
+	background: #fff;
+	-moz-box-shadow: 0 0 0.5em #c0c0c0 inset;
+	-webkit-box-shadow: 0 0 0.5em #c0c0c0 inset; }
+.black {
+	background: #666;
+	-moz-box-shadow: 0 0 0.5em #333 inset;
+	-webkit-box-shadow: 0 0 0.5em #333 inset; }
+.clear-hack:after { 
+    clear: both; 
+    display: block; 
+    height: 0;
+    visibility: hidden;
+	font-size: 0;
+	content: " "; }
+*:first-child+html .clear-hack { zoom: 1; } /* IE7 */
+.module-container {
+	width: 18em; 
+	float: left; 
+	margin: 0 1em 1em 0; 
+	background: #fff; 
+	border: 1px #111 solid;
+	font-size: .8em; }
+.module-container-inner { 
+	padding: 0.5em;
+	-moz-box-shadow: 0 0 0.5em #111;
+	-webkit-box-shadow: 0 0 0.5em #111; }
+.module-container h3 {
+	margin: 0 0 .5em 0;
+	border-bottom: 3px #ececec double; }
+.module-container ol { 
+	padding: .5em 0 0 1.5em;
+	margin: .5em 0 0 0; }
+.square { 
+	text-align: center;
+	vertical-align: middle; }
+.notes-module textarea { border: 1px #ececec solid; width: 94%; min-height: 10em; padding: .5em; font: 1em/1.5 Georgia; }
+.clear { clear: both; }
+</style>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>jhess</h1>
+		<div class="row row-1">
+		<div class="column column-1">
+		<dl class="jhess-space clear-hack">
+			<dt class="row row-8 label">8</dt>
+			<dd class="row row-8 file file-a square square-8a white">&nbsp;</dd>
+			<dd class="row row-8 file file-b square square-8b black">&nbsp;</dd>
+			<dd class="row row-8 file file-c square square-8c white">&nbsp;</dd>
+			<dd class="row row-8 file file-d square square-8d black">&nbsp;</dd>
+			<dd class="row row-8 file file-e square square-8e white">&nbsp;</dd>
+			<dd class="row row-8 file file-f square square-8f black">&nbsp;</dd>
+			<dd class="row row-8 file file-g square square-8g white">&nbsp;</dd>
+			<dd class="row row-8 file file-h square square-8h black">&nbsp;</dd>
+			<dt class="row row-7 label">7</dt>
+			<dd class="row row-7 file file-a square square-7a black">&nbsp;</dd>
+			<dd class="row row-7 file file-b square square-7b white">&nbsp;</dd>
+			<dd class="row row-7 file file-c square square-7c black">&nbsp;</dd>
+			<dd class="row row-7 file file-d square square-7d white">&nbsp;</dd>
+			<dd class="row row-7 file file-e square square-7e black">&nbsp;</dd>
+			<dd class="row row-7 file file-f square square-7f white">&nbsp;</dd>
+			<dd class="row row-7 file file-g square square-7g black">&nbsp;</dd>
+			<dd class="row row-7 file file-h square square-7h white">&nbsp;</dd>
+			<dt class="row row-6 label">6</dt>
+			<dd class="row row-6 file file-a square square-6a white">&nbsp;</dd>
+			<dd class="row row-6 file file-b square square-6b black">&nbsp;</dd>
+			<dd class="row row-6 file file-c square square-6c white">&nbsp;</dd>
+			<dd class="row row-6 file file-d square square-6d black">&nbsp;</dd>
+			<dd class="row row-6 file file-e square square-6e white">&nbsp;</dd>
+			<dd class="row row-6 file file-f square square-6f black">&nbsp;</dd>
+			<dd class="row row-6 file file-g square square-6g white">&nbsp;</dd>
+			<dd class="row row-6 file file-h square square-6h black">&nbsp;</dd>
+			<dt class="row row-5 label">5</dt>
+			<dd class="row row-5 file file-a square square-5a black">&nbsp;</dd>
+			<dd class="row row-5 file file-b square square-5b white">&nbsp;</dd>
+			<dd class="row row-5 file file-c square square-5c black">&nbsp;</dd>
+			<dd class="row row-5 file file-d square square-5d white">&nbsp;</dd>
+			<dd class="row row-5 file file-e square square-5e black">&nbsp;</dd>
+			<dd class="row row-5 file file-f square square-5f white">&nbsp;</dd>
+			<dd class="row row-5 file file-g square square-5g black">&nbsp;</dd>
+			<dd class="row row-5 file file-h square square-5h white">&nbsp;</dd>
+			<dt class="row row-4 label">4</dt>
+			<dd class="row row-4 file file-a square square-4a white">&nbsp;</dd>
+			<dd class="row row-4 file file-b square square-4b black">&nbsp;</dd>
+			<dd class="row row-4 file file-c square square-4c white">&nbsp;</dd>
+			<dd class="row row-4 file file-d square square-4d black">&nbsp;</dd>
+			<dd class="row row-4 file file-e square square-4e white">&nbsp;</dd>
+			<dd class="row row-4 file file-f square square-4f black">&nbsp;</dd>
+			<dd class="row row-4 file file-g square square-4g white">&nbsp;</dd>
+			<dd class="row row-4 file file-h square square-4h black">&nbsp;</dd>
+			<dt class="row row-3 label">3</dt>
+			<dd class="row row-3 file file-a square square-3a black">&nbsp;</dd>
+			<dd class="row row-3 file file-b square square-3b white">&nbsp;</dd>
+			<dd class="row row-3 file file-c square square-3c black">&nbsp;</dd>
+			<dd class="row row-3 file file-d square square-3d white">&nbsp;</dd>
+			<dd class="row row-3 file file-e square square-3e black">&nbsp;</dd>
+			<dd class="row row-3 file file-f square square-3f white">&nbsp;</dd>
+			<dd class="row row-3 file file-g square square-3g black">&nbsp;</dd>
+			<dd class="row row-3 file file-h square square-3h white">&nbsp;</dd>
+			<dt class="row row-2 label">2</dt>
+			<dd class="row row-2 file file-a square square-2a white">&nbsp;</dd>
+			<dd class="row row-2 file file-b square square-2b black">&nbsp;</dd>
+			<dd class="row row-2 file file-c square square-2c white">&nbsp;</dd>
+			<dd class="row row-2 file file-d square square-2d black">&nbsp;</dd>
+			<dd class="row row-2 file file-e square square-2e white">&nbsp;</dd>
+			<dd class="row row-2 file file-f square square-2f black">&nbsp;</dd>
+			<dd class="row row-2 file file-g square square-2g white">&nbsp;</dd>
+			<dd class="row row-2 file file-h square square-2h black">&nbsp;</dd>
+			<dt class="row row-1 label">1</dt>
+			<dd class="row row-1 file file-a square square-1a black">&nbsp;</dd>
+			<dd class="row row-1 file file-b square square-1b white">&nbsp;</dd>
+			<dd class="row row-1 file file-c square square-1c black">&nbsp;</dd>
+			<dd class="row row-1 file file-d square square-1d white">&nbsp;</dd>
+			<dd class="row row-1 file file-e square square-1e black">&nbsp;</dd>
+			<dd class="row row-1 file file-f square square-1f white">&nbsp;</dd>
+			<dd class="row row-1 file file-g square square-1g black">&nbsp;</dd>
+			<dd class="row row-1 file file-h square square-1h white">&nbsp;</dd>
+			<dt class="row row-0 label null-label">&nbsp;</dt>
+			<dd class="row row-0 file">A</dd>
+			<dd class="row row-0 file">B</dd>
+			<dd class="row row-0 file">C</dd>
+			<dd class="row row-0 file">D</dd>
+			<dd class="row row-0 file">E</dd>
+			<dd class="row row-0 file">F</dd>
+			<dd class="row row-0 file">G</dd>
+			<dd class="row row-0 file">H</dd>
+		</dl>
+		</div><!-- .column-1 -->
+		<div class="column column-2">
+		<div class="module-container notation-module">
+			<div class="module-container-inner">
+				<h3>Notation</h3>
+				<p>In non pulvinar nunc. Nullam ac convallis magna. Sed fringilla eleifend nisl ac placerat?</p>
+				<ol>
+					<li><span class="white-move">e4</span> <span class="black-move">e5</span></li>
+					<li><span class="white-move">Nc3</span> <span class="black-move">...</span></li>
+				</ol>
+				<input type="submit" value="Save" title="Save game to local for next session" />
+				<input type="submit" value="Export" title="Export notation to some format" />
+				<input type="submit" value="Commit" title="Commit notation to global database" />
+			</div>
+		</div>
+		<div class="module-container notes-module clear">
+			<div class="module-container-inner">
+				<h3>Notes</h3>
+				<form id="jhess-annotation-form" action="" method="post">
+					<textarea></textarea>
+					<input type="submit" value="Save" />
+				</form>
+			</div>
+		</div>
+		</div><!-- .column-2 -->
+		<div class="column column-3">
+		<div class="module-container chat-module">
+			<div class="module-container-inner">
+				<h3>Chat</h3>
+				<ol>
+					<li>
+						<dl>
+							<dt>L.W. says: </dt>
+							<dd>Wovon man nicht sprechen kann...</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>B.R. says: </dt>
+							<dd>For all X...</dd>
+						</dl>
+					</li>
+				</ol>
+				<textarea></textarea>
+				<input type="submit" value="Send" />
+			</div>
+		</div>
+		<div class="module-container history-module clear">
+			<div class="module-container-inner">
+				<h3>History</h3>
+				<p>In non pulvinar nunc. Nullam ac convallis magna. Sed fringilla eleifend nisl ac placerat?</p>
+			</div>
+		</div>
+		</div><!-- .column-3 -->
+		</div><!-- .row-1 -->
+		<p><a href="http://nerdfiles.net">nerdfiles.net</a></p>
+	</div>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>	
+    <script type="text/javascript">
+	jQuery(function($) {
+		jhess = {
+			
+			ontology: {
+				pawn: {
+					id:		"pawn",
+					graphic:	""
+				},
+				bishop: {
+					graphic: ""
+				},
+				knight: {
+					graphic: ""
+				},
+				rook: {
+					graphic: ""
+				},
+				queen: {
+					graphic: ""
+				},
+				king: {
+					graphic: ""
+				}
+			},
+			
+			chessSpace: function() {
+				var rows =	["1","2","3","4","5","6","7","8"];
+				var files =	["A","B","C","D","E","F","G","H"];
+				var space =	[];
+				
+				for (var i = 0; i < rows.length; i++) {
+					space[i] = [];
+					for (var j = 0; j < files.length; j++) {
+						space[i].push(files[j]);
+					}
+				}
+				
+				return space;
+			},
+			
+			engine: function() {
+				
+			},
+
+            piece: {},
+			
+            init: function() {
+
+				$('.jhess-space dd:not(.row-0)').bind("click.grab", function(e) {
+                    for (var i = 0; i < $('.jhess-space dd:not(.row-0)').length; i++) {
+                        //console.log($('.jhess-space dd:not(.row-0)')[i]);
+                    }
+                    jhess.piece = $(this).find("img"),
+                    clone = jhess.piece.clone();
+
+                    console.log("--- Grabbing Meta-data ---");
+                    console.log("Current piece: " + jhess.piece.attr("class"));
+                    console.log("Coming from: " + $(this).attr("class"));
+                    $(this).find("img").remove();
+
+                    $('dd:not(.row-0)').bind("click.place", function(e) {
+                        console.log("--- Picking Meta-data ---");
+                        console.log("Currently on: " + jhess.piece.attr("class"));
+                        $(this).append(jhess.clone);
+                        $('dd:not(.row-0)').unbind("click.place");
+                    });
+                });
+
+				$('.jhess-space dd.square:gt(47)').html('<img src="01-w-pawn.png" class="material worth-1 pawn" alt="" title="" />');
+				$('.jhess-space dd.square:lt(16)').html('<img src="01-w-pawn.png" class="material worth-1 pawn" alt="" title="" />');
+			}
+			
+		}
+
+		jhess.init();
+	});
+	</script>
+
+</body>
+
+</html>

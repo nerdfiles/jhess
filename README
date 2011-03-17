@@ -1,0 +1,10 @@
+/**
+ * jhess (JavaScript chess engine)
+ *
+ * A JavaScript chess engine based on Web workers.
+ *
+ * @project         jhesa
+ * @version         0.0.1
+ *
+ * @tested          
+ */
