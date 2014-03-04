@@ -6,7 +6,16 @@
   <title></title>
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.css">
   <style>
-      html, body { height: 100%; }
+      pawn,
+      bishop, knight, rook,
+      king, queen {
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          text-align: center;
+          border: 1px solid gray;
+          text-indent: -9999px;
+      }
       .gamespace {
           width: 50%;
           margin: 0 auto;
@@ -17,6 +26,8 @@
       /*
       players
       */
+      .p1, .p2 {
+      }
       .p1 {
           background: #fff;
           color: #000;
