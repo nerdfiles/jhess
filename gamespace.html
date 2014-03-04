@@ -15,6 +15,28 @@
           width: 100%;
       }
       /*
+      players
+      */
+      .p1 {
+          background: #000;
+          color: #fff;
+      }
+      .p2 {
+          background: #fff;
+          color: #000;
+      }
+      /*
+      material
+      */
+      pawn {
+      }
+      bishop {
+      }
+      knight {
+      }
+      rook {
+      }
+      /*
       spaces
       */
       table td,
@@ -42,7 +64,7 @@
   <table>
     <tfoot>
       <tr>
-        <th></th>
+        <th><a href="#">Reset</a></th>
         <th>a</th>
         <th>b</th>
         <th>c</th>
@@ -56,25 +78,57 @@
     <tbody>
       <tr>
         <th>8</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+          <rook title="Rook" class="p2">Rook</rook>
+        </td>
+        <td>
+          <knight title="Knight" class="p2">Knight</knight>
+        </td>
+        <td>
+          <bishop title="Bishop" class="p2">Bishop</bishop>
+        </td>
+        <td>
+          <queen title="Queen" class="p2">Queen</queen>
+        </td>
+        <td>
+          <king title="King" class="p2">King</king>
+        </td>
+        <td>
+          <bishop title="Bishop" class="p2">Bishop</bishop>
+        </td>
+        <td>
+          <knight title="Knight" class="p2">Knight</knight>
+        </td>
+        <td>
+          <rook title="Rook" class="p2">Rook</rook>
+        </td>
       </tr>
       <tr>
         <th>7</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+          <pawn title="Pawn" class="p2">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p2">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p2">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p2">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p2">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p2">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p2">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p2">Pawn</pawn>
+        </td>
       </tr>
       <tr>
         <th>6</th>
@@ -122,25 +176,57 @@
       </tr>
       <tr>
         <th>2</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+          <pawn title="Pawn" class="p1">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p1">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p1">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p1">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p1">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p1">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p1">Pawn</pawn>
+        </td>
+        <td>
+          <pawn title="Pawn" class="p1">Pawn</pawn>
+        </td>
       </tr>
       <tr>
         <th>1</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>
+          <rook title="Rook" class="p1">Rook</rook>
+        </td>
+        <td>
+          <knight title="Knight" class="p1">Knight</knight>
+        </td>
+        <td>
+          <bishop title="Bishop" class="p1">Bishop</bishop>
+        </td>
+        <td>
+          <queen title="Queen" class="p1">Queen</queen>
+        </td>
+        <td>
+          <king title="King" class="p1">King</king>
+        </td>
+        <td>
+          <bishop title="Bishop" class="p1">Bishop</bishop>
+        </td>
+        <td>
+          <knight title="Knight" class="p1">Knight</knight>
+        </td>
+        <td>
+          <rook title="Rook" class="p1">Rook</rook>
+        </td>
       </tr>
     </tbody>
   </table>
